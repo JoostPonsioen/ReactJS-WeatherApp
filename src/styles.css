@@ -1,0 +1,72 @@
+/* Weather */
+.container, table.table {
+    color: white;
+}
+
+.app {
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+tr, td, th {
+    text-align: center;
+}
+
+img.weer {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.head {
+    text-align: center;
+    margin: 40px;
+}
+
+.head h5 {
+    margin-top: 20px;
+}
+
+h2.city, p.temp {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p.temp, p.min-max, p.desc {
+    font-size: 30px;
+}
+
+tr.center {
+    text-align: center;
+}
+
+.informatie {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#status, #button, #description {
+    display: none;
+}
+
+.table thead th {
+    border-bottom: 0;
+}
+
+.about-page, .error-page {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
