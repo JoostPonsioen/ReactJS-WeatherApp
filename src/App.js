@@ -7,11 +7,6 @@ import Navigation from './components/Navigation';
 import Error from './components/Error';
 
 import WeatherAPI from "./components/WeatherAPI";
-// import SongList from "./components/SongList";
-// import Opdracht2 from "./components/Opdracht2";
-// import Opdracht3 from "./components/Opdracht3";
-// import Opdracht4 from "./components/Opdracht4";
-// import Opdracht5 from "./components/Opdracht5";
 
 class App extends React.Component {
   render() {
